@@ -103,6 +103,7 @@ html, body { /*Body que emplena tota la pàgina*/
   height: 100%;
 }
 
-ol {
-  
+#expanded-text img{
+  margin-top: 100px;
+  width: 350px;
 }
