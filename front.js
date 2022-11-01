@@ -24,7 +24,7 @@ function showText(component) {
       text.innerHTML = "<h2>PAU 2020</h2><p>Recognised by the Government of Catalonia for having outstanding results in the <a href='https://universitats.gencat.cat/ca/proves-acces-PAU-PAP/sobre-PAU/que-son-PAU/'> university access tests.</a></p>";
       break;
     case "whoami":
-      text.innerHTML = "<h2>Welcome to my curriculum!</h2><p>If you need more information on any of the topics in the bottom left side of the curriculum, just click on them!</p><p>I'm Bernat Comas, i'm a perfectionist person who loves music, movies and sports and is really passionate about what i do.</p><p>I have a passion for studiying new subjects and I'm all for learning new things.</p>";
+      text.innerHTML = "<h2>Welcome to my curriculum!</h2><p>If you need more information on any of the topics in the bottom left side of the curriculum, just click on them!</p><p>I'm Bernat Comas, i'm a perfectionist person who loves music, movies and sports and is really passionate about what i do.</p><p>I was born in the 13th of January of 2003 in Girona(Spain).</p><p>I have a passion for studiying new subjects and I'm all for learning new things.</p>";
       break;
   }
 }
