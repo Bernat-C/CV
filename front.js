@@ -12,7 +12,7 @@ function showText(component) {
       text.innerHTML = "<h2>Native Languages</h2><p>As i grew in the Spanish city of Girona I've spoken Catalan and Spanish alternatively with friends and family since i was a kid.</p>";
       break;
     case "doceo":
-      text.innerHTML = "<h2>Doceo Software 2019-Present</h2><p>Projects I have been involved in:<ul><li>Biometric Signature: FrontEnd (Angular, JavaScript), BackEnd (PHP)</li><li>Facial Recognition (C#)</li><li>Image Enhancement (Visual Basic)</li></ul><div style='centered-horizontally centered-vertically'><img src='/images/doceo.png'></img></div></p>";
+      text.innerHTML = "<h2>Doceo Software 2019-Present</h2><p>Projects I have been involved in:<ul><li>Biometric Signature: FrontEnd (Angular, JavaScript), BackEnd (PHP)</li><li>Facial Recognition (C#)</li><li>Image Enhancement (Visual Basic)</li></ul><div style='centered-horizontally centered-vertically'><img src='images/doceo.png'></img></div></p>";
       break;
     case "other":
       text.innerHTML = "<h2>Personal projects</h2><p>Here is a list of the most important projects I've been involved in: <ul><li>GDSC University of Girona.</li><li>Hackatons such as the AI Colisseum 2022.</li></ul></p>";
