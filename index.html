@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Curriculum vitae</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="front.js" type="text/javascript"> </script>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="left-top">
+      <div class = "grid-container-profile centered">
+        <div class="grid-child-element profile centered-vertically">
+          <img class="" src="images/profile.JPG">
+        </div>
+        <div class="grid-child-element profileText centered-vertically" style="text-align: left;">
+          <h2>Bernat Comas Machuca</h2>
+          <p>Computer Engineer</p>
+        </div>
+      </div>
+    </div>
+    <div class="left-bottom">
+      <div class="grid-container-list">
+        <div class="column-list-odd">
+          <div class="card centered-horizontally">
+            <h3>Languages</h3>
+          </div>
+          <div class="card clickable" onclick="showText('english')">
+            <img src="images/en.png" class="flag">
+            <p class="level">C1</p>
+          </div>
+          <div class="card clickable" onclick="showText('spanish')">
+            <img src="images/es.png" class="flag">
+            <p class="level">Native</p>
+          </div>
+          <div class="card clickable" onclick="showText('french')">
+            <img src="images/fr.png" class="flag">
+            <p class="level">A2</p>
+          </div>
+          <div class="card clickable" onclick="showText('catalan')">
+            <img src="images/ca.png" class="flag">
+            <p class="level">Native</p>
+          </div>
+        </div>
+        <div class="column-list-even">
+          <div class="card centered-horizontally">
+            <h3>Experience</h3>
+          </div>    
+          <div class="card centered-horizontally summary clickable" onclick="showText('doceo')">
+            <p>Doceo Software<br>2019-...</p>
+          </div>         
+          <div class="card centered-horizontally summary clickable" onclick="showText('other')">
+            <p>Other</p>
+          </div>         
+        </div>
+        <div class="column-list-odd">
+          <div class="card centered-horizontally">
+            <h3>Education</h3>
+          </div>        
+          <div class="card centered-horizontally summary clickable" onclick="showText('computer-engineering')">
+            <p>Computer Engineering <br> UDG <br> 2020-2024</p>
+          </div>         
+        </div>
+        <div class="column-list-even">
+          <div class="card centered-horizontally">
+            <h3>Highlights</h3>
+          </div>        
+          <div class="card centered-horizontally summary clickable" onclick="showText('university-access')">
+            <p>Recognition for outstanding results in university access tests</p>
+          </div>      
+          <div class="card centered-horizontally summary clickable" onclick="showText('whoami')">
+            <p>Who am I?</p>
+          </div>           
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div id="expanded-text">
+        <h2>Welcome to my curriculum!</h2>
+        <p>If you need more information on any of the topics in the bottom left side of the curriculum, just click on them!</p>
+        <p>I'm Bernat Comas, i'm a perfectionist person who loves music, movies and sports and is really passionate about what i do.</p>
+        <p>I have a passion for studiying new subjects and I'm all for learning new things.</p>
+      </div>
+    </div>   
+  </div>
+</body>
+</html> 

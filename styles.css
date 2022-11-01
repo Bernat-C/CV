@@ -1,0 +1,108 @@
+html, body { /*Body que emplena tota la pàgina*/
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Arial", Times, serif;
+}
+
+/* Distribució principal */
+.wrapper {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.right {
+  grid-column: 4 / 6;
+  grid-row: 1 / 7;
+  background-color: #C9D6DF;
+}
+
+.left-top {
+  grid-column: 1 / 4;
+  grid-row: 1/3;
+  background-color: #52616B;
+}
+
+.left-bottom {
+  grid-column: 1 / 4;
+  grid-row: 3/6;
+  background-color: #F0F5F9;
+}
+
+/* Centrem */
+.centered-horizontally {
+  text-align: center;
+}
+
+.centered-vertically {
+  padding: 3%;
+}
+
+/* PROFILE */
+
+.profile img {
+  max-width: 18%;
+  float:left; /* add this */
+  padding: 2%;
+}
+
+.profileText{
+  padding-top: 3%;
+  color: white;
+  overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+/* LISTS */
+
+.grid-container-list {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /*box-shadow: 0px 5px 5px #c9cbce, 0px -10px 5px #c9cbce;*/
+}
+
+.column-list-even {
+  background: #F0F5F9;
+}
+
+.column-list-odd {
+  background: #C9D6DF;
+}
+
+.card {
+  min-height: 60px;
+}
+
+.clickable:hover {
+  color: gray;
+}
+
+.flag {
+  height: 20px;
+  width: 30px;
+  float:left;
+  position: relative;
+  padding-left: 20%;
+}
+
+.level {
+  padding-left: 50%;
+}
+
+.summary {
+  padding-left:10%;
+  padding-right:10%;
+}
+
+/* TEXT */
+
+#expanded-text {
+  padding: 10%;
+  height: 100%;
+}
+
+ol {
+  
+}
