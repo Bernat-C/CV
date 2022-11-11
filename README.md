@@ -10,3 +10,9 @@ Continuing width my ideas of seriousness and originality i'm going for a palette
 To try and go as far away as possible from A4 CVs I decided to make a single page unscrollable CV where every inch of the screen is useful to transmit a message. That's why I decided to break the page into three sections. 
 The top left section is used to display the most important things of the CV, which must always be visible, such as my name, profile picture, the field I want to work in and my contact Data. I decided not to add more contact information because I'm all for data protection. The bottom left part is used as a menu and to get a quick glance over the CV. Looking at it you can see the most important jobs i've had as well as languages I speak and other important information. If the final user is more interested they can always click and more information will be shown.
 Finally the rightmost part is used to display a more extensive approach to the topics that appear in the menu.
+
+Link to figma:
+https://www.figma.com/file/0DpEYApKcKnjibengNdMVz/Curriculum-Vitae?fuid=1154088391795690380
+
+Link to the website:
+https://bernat-c.github.io/CV/
